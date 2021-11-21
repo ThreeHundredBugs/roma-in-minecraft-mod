@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "roma_in_minecraft",
+  "version": "${version}",
+  "name": "Roma in Minecraft",
+  "description": "",
+  "authors": ["tentoshka"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/roma_in_minecraft/icon.jpg",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "studymod.tentoshka.Mod"
+    ]
+  },
+  "mixins": [
+    "study.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
