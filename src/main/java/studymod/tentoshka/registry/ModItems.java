@@ -17,9 +17,11 @@ public class ModItems {
 
     // BlockItems
     public static final BlockItem ROMA_BLOCK = new BlockItem(ModBlocks.ROMA_BLOCK, new Item.Settings().group(Mod.ITEM_GROUP));
+    public static final BlockItem GAY_ORE = new BlockItem(ModBlocks.GAY_ORE, new Item.Settings().group(Mod.ITEM_GROUP));
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "gay_essential"), GAY_ESSENTIAL);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "roma_block"), ROMA_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "gay_ore"), GAY_ORE);
     }
 }
