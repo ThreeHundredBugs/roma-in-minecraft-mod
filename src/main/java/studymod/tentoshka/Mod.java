@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 import studymod.tentoshka.registry.ModBlocks;
 import studymod.tentoshka.registry.ModFeatures;
 import studymod.tentoshka.registry.ModItems;
+import studymod.tentoshka.registry.ModMobs;
 
 public class Mod implements ModInitializer {
 
@@ -22,5 +23,6 @@ public class Mod implements ModInitializer {
         ModItems.registerItems();
         ModBlocks.registerBlocks();
         ModFeatures.registryFeatures();
+        ModMobs.registerMobs();
     }
 }

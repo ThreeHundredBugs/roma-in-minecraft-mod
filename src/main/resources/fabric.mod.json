@@ -12,6 +12,9 @@
   "entrypoints": {
     "main": [
       "studymod.tentoshka.Mod"
+    ],
+    "client": [
+      "studymod.tentoshka.ModClient"
     ]
   },
   "mixins": [
