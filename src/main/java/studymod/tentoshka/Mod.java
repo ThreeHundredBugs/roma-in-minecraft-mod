@@ -6,6 +6,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import studymod.tentoshka.registry.ModBlocks;
+import studymod.tentoshka.registry.ModFeatures;
 import studymod.tentoshka.registry.ModItems;
 
 public class Mod implements ModInitializer {
@@ -20,5 +21,6 @@ public class Mod implements ModInitializer {
     public void onInitialize() {
         ModItems.registerItems();
         ModBlocks.registerBlocks();
+        ModFeatures.registryFeatures();
     }
 }
