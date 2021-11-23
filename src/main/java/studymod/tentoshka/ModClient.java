@@ -12,8 +12,8 @@ import static studymod.tentoshka.registry.ModMobs.CUBE;
 public class ModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        EntityRendererRegistry.INSTANCE.register(CUBE, (dispatcher, context) -> {
-            return new CubeEntityRenderer(dispatcher);
-        });
+        EntityRendererRegistry.INSTANCE.register(CUBE, (dispatcher, context) ->
+            new CubeEntityRenderer(dispatcher)
+        );
     }
 }
