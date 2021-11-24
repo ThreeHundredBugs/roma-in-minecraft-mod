@@ -19,6 +19,6 @@ public class ModMobs {
     );
 
     public static void registerMobs() {
-        FabricDefaultAttributeRegistry.register(ROMA_GOLEM, RomaGolemEntity.createMobAttributes());
+        FabricDefaultAttributeRegistry.register(ROMA_GOLEM, RomaGolemEntity.createRomaGolemAttributes());
     }
 }
