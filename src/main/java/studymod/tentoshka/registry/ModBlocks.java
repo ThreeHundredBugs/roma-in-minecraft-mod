@@ -7,12 +7,14 @@ import net.minecraft.block.Material;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import studymod.tentoshka.blocks.GayOre;
+import studymod.tentoshka.blocks.RomaBlock;
 
 import static studymod.tentoshka.Mod.MOD_ID;
 
 public class ModBlocks {
 
-    public static final Block ROMA_BLOCK = new Block(
+    public static final Block ROMA_BLOCK = new RomaBlock(
             FabricBlockSettings.of(Material.WOOL)
                     .breakByHand(true)
                     .breakByTool(FabricToolTags.PICKAXES, 0)
@@ -26,7 +28,7 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.WOOL)
                     .requiresTool());
 
-    public static final Block GAY_ORE = new Block(
+    public static final Block GAY_ORE = new GayOre(
             FabricBlockSettings.of(Material.METAL)
                     .breakByHand(false)
                     .breakByTool(FabricToolTags.PICKAXES, 2)
