@@ -5,10 +5,7 @@ import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
-import studymod.tentoshka.registry.ModBlocks;
-import studymod.tentoshka.registry.ModFeatures;
-import studymod.tentoshka.registry.ModItems;
-import studymod.tentoshka.registry.ModMobs;
+import studymod.tentoshka.registry.*;
 
 public class Mod implements ModInitializer {
 
@@ -24,5 +21,6 @@ public class Mod implements ModInitializer {
         ModBlocks.registerBlocks();
         ModFeatures.registryFeatures();
         ModMobs.registerMobs();
+        ModArmor.registerArmor();
     }
 }

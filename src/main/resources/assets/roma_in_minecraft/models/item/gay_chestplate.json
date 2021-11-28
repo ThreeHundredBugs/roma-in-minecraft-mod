@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "roma_in_minecraft:item/gay_chestplate"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "roma_in_minecraft:gay_ore"
+    }
+  },
+  "result": {
+    "item": "roma_in_minecraft:gay_boots"}
+}

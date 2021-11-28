@@ -3,5 +3,9 @@
   "itemGroup.roma_in_minecraft.general": "Рома в Майнкрафт",
   "block.roma_in_minecraft.roma_block": "Ромин блок",
   "block.roma_in_minecraft.gay_ore": "Гейская руда",
-  "entity.roma_in_minecraft.roma_golem": "Рома голем"
+  "entity.roma_in_minecraft.roma_golem": "Рома голем",
+  "item.roma_in_minecraft.gay_helmet": "Гейский шлем",
+  "item.roma_in_minecraft.gay_chestplate": "Гейский нагрудник",
+  "item.roma_in_minecraft.gay_leggings": "Гейские поножи",
+  "item.roma_in_minecraft.gay_boots": "Гейские ботинки"
 }

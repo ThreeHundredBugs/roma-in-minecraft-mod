@@ -3,5 +3,9 @@
   "itemGroup.roma_in_minecraft.general": "Roma in Minecraft",
   "block.roma_in_minecraft.roma_block": "Roma's block",
   "block.roma_in_minecraft.gay_ore": "Gay ore",
-  "entity.roma_in_minecraft.roma_golem": "Roma golem"
+  "entity.roma_in_minecraft.roma_golem": "Roma golem",
+  "item.roma_in_minecraft.gay_helmet": "Gay helmet",
+  "item.roma_in_minecraft.gay_chestplate": "Gay chestplate",
+  "item.roma_in_minecraft.gay_leggings": "Gay leggings",
+  "item.roma_in_minecraft.gay_boots": "Gay boots"
 }
