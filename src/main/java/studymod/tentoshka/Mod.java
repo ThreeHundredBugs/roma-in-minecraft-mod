@@ -22,5 +22,6 @@ public class Mod implements ModInitializer {
         ModFeatures.registryFeatures();
         ModMobs.registerMobs();
         ModArmor.registerArmor();
+        ModTools.registerTools();
     }
 }

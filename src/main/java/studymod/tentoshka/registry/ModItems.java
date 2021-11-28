@@ -5,13 +5,14 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import studymod.tentoshka.Mod;
+import studymod.tentoshka.items.GayEssential;
 
 import static studymod.tentoshka.Mod.MOD_ID;
 
 public class ModItems {
 
     // Items
-    public static final Item GAY_ESSENTIAL = new Item(
+    public static final Item GAY_ESSENTIAL = new GayEssential(
             new Item.Settings()
                     .group(Mod.ITEM_GROUP));
 
